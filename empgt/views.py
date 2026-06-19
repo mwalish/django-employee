@@ -1,6 +1,6 @@
 from django.http import HttpResponse
 from rest_framework.decorators import api_view
-
+# views
 def home(request):
     return HttpResponse("welcome to task_managment")
 
