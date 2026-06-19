@@ -90,10 +90,10 @@ WSGI_APPLICATION = 'empgt.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME':'employeedb',
-        'HOST':'localhost',
-        'USER':'root',
-        'PASSWORD':""
+        'NAME':'lexguru_employeedb',
+        'HOST':'lexguru.alwaysdata.net',
+        'USER':'lexguru',
+        'PASSWORD':"mwalish"
     }
 }
 
